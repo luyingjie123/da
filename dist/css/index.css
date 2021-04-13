@@ -1,3 +1,6 @@
+.zybk {
+  display: none; }
+
 .BOSS-hover-chengshi {
   position: absolute;
   top: 0;
@@ -33,17 +36,19 @@
     display: block;
     margin-top: 40px;
     width: 626px;
-    height: 500px;
-    background: #cfcccc; }
+    height: 585px;
+    background: #fff; }
     .BOSS-hover-chengshi div .dqcs {
       width: 300px;
       height: 30px;
-      background: #c50e0e;
       padding: 20px;
       line-height: 100%; }
       .BOSS-hover-chengshi div .dqcs span {
-        color: red; }
+        color: red;
+        margin-left: -20px;
+        font-size: 15px; }
         .BOSS-hover-chengshi div .dqcs span a {
+          padding: 5px;
           margin-left: 20px;
           color: #0a0a0a;
           text-decoration: none !important;
@@ -60,23 +65,25 @@
     .rmcs a:first-child {
       margin-left: 20px; }
 
-.qtcs span div {
-  width: 476px !important;
+.qtcs {
+  width: 584px !important;
   height: 300px !important;
-  background: darkslateblue;
-  margin-left: 75px;
-  margin-top: -16px !important; }
-
-.qtcs a {
-  width: 30px;
-  height: 20px;
-  color: #0a0a0a;
-  text-decoration: none !important;
-  margin-right: 10px;
-  margin-bottom: 10px !important;
-  padding-bottom: 10px;
-  line-height: 30px;
-  text-align: center; }
+  background: #036f7e; }
+  .qtcs span div {
+    width: 476px !important;
+    height: 385px !important;
+    margin-left: 75px;
+    margin-top: -16px !important; }
+  .qtcs a {
+    width: 30px;
+    height: 20px;
+    color: #0a0a0a;
+    text-decoration: none !important;
+    margin-right: 10px;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px;
+    line-height: 30px;
+    text-align: center; }
 
 .caret {
   margin-left: 40px !important; }
@@ -531,3 +538,10 @@ a:hover {
 .TOP-colorss {
   margin-top: 13px;
   margin-left: -86px; }
+
+.TOP-color-wcasd {
+  font-size: 15px !important;
+  color: #0a0a0a; }
+
+.TOP-color-wcasd:hover {
+  color: red !important; }

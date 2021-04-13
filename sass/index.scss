@@ -1,3 +1,7 @@
+    // 主要边框隐藏
+.zybk{
+    display: none;
+}
 // <!-- 主要城市划过显示列表 -->
 .BOSS-hover-chengshi{
      position: absolute;
@@ -33,6 +37,7 @@
         border-color: transparent transparent  rgb(224, 217, 217)transparent;
     
     }
+   
 
     div{
         margin-top: 32px !important ;
@@ -40,22 +45,27 @@
         display: block;
         margin-top: 40px;
         width: 626px;
-        height: 500px;
-        background: rgb(207, 204, 204);
+        height: 585px;
+        background: #fff;
+    
+
+
         // 影音
         // <!-- 主要城市 -->
         .dqcs{
             width: 300px;
             height: 30px;
-            background: rgb(197, 14, 14) ;
             padding: 20px;
 
 
             line-height: 100%;
             span{
                 color: red;
+                margin-left: -20px;
+                font-size: 15px;
 
                 a{
+                    padding: 5px;
                     margin-left: 20px;
                     color: rgb(10, 10, 10);
                     text-decoration: none !important; 
@@ -68,6 +78,7 @@
 
     }
 }
+
 // <!-- 热门城市 -->
 .rmcs{
     width: 550px !important;
@@ -85,13 +96,16 @@
 }
 // 其他城市
 .qtcs{
-   
+    width: 584px !important;
+    height: 300px !important ;
+    background: rgb(3, 111, 126);
+
     span{
      
         div{
             width: 476px !important;
-            height: 300px !important ;
-            background: darkslateblue;
+            height: 385px !important ;
+            // background: darkslateblue;
             margin-left: 75px;
             margin-top: -16px !important;
 
@@ -678,6 +692,14 @@ text-align: center;
 .TOP-colorss{
 margin-top: 13px;
 margin-left: -86px;
+}
+.TOP-color-wcasd{
+    font-size: 15px !important;
+    color: rgb(10, 10, 10);
+
+}
+.TOP-color-wcasd:hover{
+    color: red !important;
 }
 
 
