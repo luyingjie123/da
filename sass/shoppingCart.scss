@@ -1,0 +1,184 @@
+
+  
+
+.gwc-bx{
+    width: 1000px;
+margin: 0 auto;
+
+}
+.gwc-bx-top{
+    width: 100%;
+    height: 50px;
+    background: darkgray;
+   
+    div{
+        float: left;
+        margin-top: 15px;
+    }
+}
+.boss-zyzsnr{
+    width: 100%;
+
+}
+.boss-zyzsnr-hz{
+    width: 100%;
+    height: 100px;
+    background: rgb(241, 243, 243);
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    
+    div{
+        float: left;
+    }
+}
+.boss-xmxx{
+    width: 40%;
+    height: 100px;
+    img{
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin-right: 10px;
+    }
+    .boss-xmxx-bootm{
+        p{
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        }
+     
+        span{
+            
+            line-height: 20px;
+
+        }
+
+    }
+
+}
+.fapiao{
+    height: 50px;
+    width: 100%;
+    background: rgb(198, 201, 195);
+     p{
+         float: left;
+         line-height: 50px;
+     }   
+    }
+.top-s{ height: 80px;
+    width: 100%;
+    padding: 20px;
+    background: rgb(245, 247, 244);
+    div{
+        float: right;
+    }
+}
+.red-dam{
+    color: red;
+}
+.top-s-s{
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    background: rgb(198, 201, 195);
+    div{
+        float: right;
+    }
+    span{
+        font-size: 30px;
+    }
+    .sfk-s{
+        font-size: 12px;
+
+    }
+}
+.btn-bottom{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    background: rgb(198, 201, 195);
+        button{
+            background: #ff1268;
+            color: #fff;
+            line-height: 20px;
+            padding: 10px 30px;
+            height: auto;
+            border-width: 1px;
+            outline: red;
+            float: right;
+
+        }
+        input{
+            top: 21px;
+    left: -32px;
+        }
+}
+
+
+
+// +-按钮
+.shuliang-gwc{
+    position: relative;
+    line-height: 10px;
+  .btn-shuliang-zuo{
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: royalblue;
+        line-height: 30px;        
+        text-align: center;
+        position: absolute;
+        top: 30px;
+        right: 33px;
+    }
+    .btn-shuliang-you{
+        position: absolute;
+        top: 30px;
+        left: -42px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: royalblue;
+        line-height: 30px;        
+        text-align: center;
+    }
+    #zuo-guc-btn{
+        float: left;
+    }
+   
+}
+// 删除
+.sovm-btn{
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    background: rgb(137, 145, 130);
+    color:red
+}
+// 标题过长显示...
+.p-overflo{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+
+}
+.gouxuan{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 31px;
+    left: -35px;
+}
+.gouxuan-quan{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 31px;
+    left: -35px;
+}

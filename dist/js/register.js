@@ -34,10 +34,14 @@ $(".input").eq(2).focusout(function () {
 
     }
 })
-$(".btn").click(function () {
-    if ($(".tizhi").eq(0).css("display") != "none" && $(".tizhi").eq(2).attr("display") != "none") {
 
+// 注册点击的时候
+$(".btn").click(function () {
+    // 显示的时候
+    if ($(".tizhi").eq(0).css("display") != "none" && $(".tizhi").eq(2).attr("display") != "none") {
+        console.log("输入错误");
     } else {
+        // 注册接口
         $.get("http://jx.xuzhixiang.top/ap/api/reg.php", {
             username: $(".input").eq(0).val(),
             password: $(".input").eq(2).val(),
