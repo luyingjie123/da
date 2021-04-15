@@ -1,3 +1,14 @@
+#quanxuan-shuliang {
+  font-size: 25px;
+  color: red; }
+
+#quanxuan-shuliang-s {
+  font-size: 25px;
+  color: red; }
+
+.xiaoji-leijia {
+  color: red; }
+
 .gwc-bx {
   width: 1000px;
   margin: 0 auto; }
@@ -143,3 +154,30 @@
   position: absolute;
   top: 31px;
   left: -35px; }
+
+.tishi-zhuti {
+  width: 1000px;
+  margin: 0 auto;
+  background: red;
+  position: relative;
+  display: none; }
+  .tishi-zhuti img {
+    width: 100%;
+    height: 100%; }
+  .tishi-zhuti div {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    top: 69px;
+    left: 230px;
+    font-size: 25px;
+    color: #c1df3e; }
+  .tishi-zhuti input {
+    position: absolute;
+    width: 198px;
+    height: 61px;
+    top: 303px;
+    left: 401px;
+    font-size: 30px;
+    color: #000;
+    background: pink; }

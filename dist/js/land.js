@@ -11,17 +11,32 @@ $(".denglu").click(function () {
     }, res => {
         alert(res.msg)
         console.log(res);
+        location.href = "http://localhost:8080";
+
+
+
     })
 
 })
+// $(".zcdl-ztnr-s").child()
 
-// $(".btn").click(function () {
-//     if ($(".tizhi").eq(0).css("display") != "none" && $(".tizhi").eq(2).attr("display") != "none") {
+$(".btn-sange").click(function () {
+    let num = $(".btn-sange").index($(this))
+    console.log(num);
+    $(".zcdl-ztnr-sss").css("display", "none").eq(num).css("display", "block")
 
-//     } else {
-//         
-//     }
-// })
+    // 划过
+})
+
+
+
+
+
+
+
+
+
+
 
 
 

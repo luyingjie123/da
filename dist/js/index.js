@@ -45,7 +45,6 @@ $("box-right").eq(0)
 $.get("http://jx.xuzhixiang.top/ap/api/productlist.php", {
     uid: "51178",
 }, res => {
-    console.log(res.data);
     let str = "";
     let ket = 0
     res.data.forEach(i => {
@@ -83,6 +82,10 @@ $.get("http://jx.xuzhixiang.top/ap/api/productlist.php", {
 
 
 })
+$(".denglu-top").click(function () {
+    location.href = "http://localhost:8080/land.html"
+})
+
 
 
 

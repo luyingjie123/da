@@ -229,7 +229,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img
+                        <a class="navbar-brand" href="http://localhost:8080/"><img
                                 src="https://img.alicdn.com/tfs/TB1fbVFfu3tHKVjSZSgXXX4QFXa-230-104.png" alt=""></a>
                     </div>
 
@@ -349,14 +349,15 @@
         </div>
         <div class="top-s-s">
             <div>
-                <span class="sfk-s">实付款：<span>￥</span><span class="red-dam">99</span>
+                <span class="sfk-s">实付款：<span>￥</span><span id="text-zongjia" class="red-dam">0</span>
                 </span>
             </div>
         </div>
         <div class="btn-bottom">
 
             <button>同意以上协议并提交订单</button>
-            <span>全选 <span>选中了 <span>1</span> 个商品</span></span>
+            <span>全选 <span>选中了 <span id="quanxuan-shuliang">0</span> 个商品</span></span>
+            <span>购物车中 <span>一共有 <span id="quanxuan-shuliang-s">0</span> 个商品</span></span>
 
 
             <input class="gouxuan-quan" type="checkbox" name="delall">
@@ -364,6 +365,15 @@
         </div>
 
 
+    </div>
+    <!-- // 购物车空的时候显示 -->
+    <div class="tishi-zhuti">
+        <img src="https://seopic.699pic.com/photo/50115/9997.jpg_wh1200.jpg" alt="">
+        <div>
+            <p>购物车都空空的呐，亲，快去首页添加商品吧！</p>
+        </div>
+
+        <a href="http://localhost:8080/"><input class="tishi-zhuti-ss" type="button" value="首页"></a>
     </div>
 
     <!-- 底部包裹 -->

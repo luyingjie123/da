@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>登陆注册页面</title>
+    <title>登陆</title>
     <link rel="stylesheet" href="./font_pq996pxhasg/iconfont.css"> <!-- 矢量图标 左箭头右箭头 -->
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./js/jquery.js">
@@ -30,7 +30,8 @@
     <div class="banxin">
         <div class="top">
             <div>
-                <a href="">
+                <a href="http://localhost:8080">
+
                     <img src="https://img.alicdn.com/tfs/TB19yBbRSzqK1RjSZFLXXcn2XXa-230-104.png" alt="">
                 </a>
             </div>
@@ -45,38 +46,31 @@
                     <!-- 三个按钮 -->
                     <div class="zcdl-buttons">
                         <!-- 点击的时候显示子内容 -->
-                        <div class="zcdl-buttons-mmdl">密码登陆
+                        <div class="zcdl-buttons-mmdl btn-sange">密码登陆
                         </div>
-                        <div class="zcdl-buttons-wxdl">短信登陆</div>
-                        <div class="zcdl-buttons-smdl">扫码登陆</div>
+                        <div class="zcdl-buttons-wxdl btn-sange">短信登陆</div>
+                        <div class="zcdl-buttons-smdl btn-sange">扫码登陆</div>
                     </div>
                     <!-- 主题内容 -->
                     <div class="zcdl-ztnr-s">
                         <!-- 密码登陆 -->
-                        <div class="zcdl-ztnr-waibu">
 
+                        <div class="zcdl-ztnr-waibu  zcdl-ztnr-sss">
                             <div class="zcdl-ztnr-s-mm">
                                 <div>
                                     <span class="iconfont icon-denglu-fill"></span>
                                 </div>
-
                                 <input class="name" type="text" placeholder="请输入手机号或邮箱">
-
-
                             </div>
                             <div class="zcdl-ztnr-s-mm">
                                 <div>
                                     <span class="iconfont icon-mima"></span>
-
                                 </div>
-
                                 <input class="password" type="password" placeholder="请输入登录密码">
-
                             </div>
                             <div class="zcdl-ztnr-s-dl">
                                 <button class="denglu" type="submit">登陆</button>
                             </div>
-
                             <div class="zcdl-ztnr-s-xiaotu">
                                 <a href=""><img
                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAJ1BMVEXvVjvvVTrvVTrvVTrvVTrvVjvwVDjvVjvwVTrwVTnvVTrvVTrxVDgxkGpaAAAADXRSTlP+Ab2e2foJ7V0qekEUkXdbKgAAAo1JREFUSMetVgly5DAIxAh0gP7/3uWQx5YzM9mtWpJU2Y5aoKYBwfG0OlQKETNRER31xwJ4vKtgg5s1lPEVotgYdmNoZXyETIwlD4h9aDLfQ7p5eAKWI6D+BlILfDWpT4gHxV8xpe6QSfCrlR2CDH+NCUgV+BtjuSD9JObG0VvTEzLWikaReH6lk594mguy6C1jjuKJU1PNWscPNZSEaH7F5AHYH9QWF+mqY6iWi842AlLSe+ZKgPWoR5dhMZyZqJ0uNxWWE14UluWtehV0t7nlzdzAIZyBUc1/ae48VhUwqW8w2qJCDgj5xgt17bS4z3A5bayI4wtWOBk2ikN9saVsEoqQlxuLDPolVduYfEd1V7OfRvgqJvfTofAlVAmMgiwG8gcDUnHlVABPJ0dgmDpbIMOZPtSd6MMLAm0RSz6MhqnvYPP0skQDba+hOI82IyakcG02L8hNvThdKaWIlBK13ouZtN1Lu+nUMMavnb9W//Vl/jTxCbk3OlPDIEJCpFCcoBnx8yy0e9G2lp1nIdkZMwDuBSQwgrjgAo3yepTdS4GrfXnmJ/FMSOrMkzrKBhETzFnGGl2gpWTSSyL7BukvWbIjqp0sdJvBDK17w05ZrkfuLqqeWs4S879pZxmbFxN/FgJnmyYvqWvn2huoZgllMbC9WCG3RVZd/QzHqy4jc9GJctkqZONlTYOZ+uZGYZbmoYg+kOrVubIpnars/KFxvxoq8Li3Phunzx5Mdbr5wN1b33myn52YPT6MGBfDc2/j73o979v0a77IZ8zd921Y/Doof46kW//4YjjrNl4r/o741yFeXoNguyp8Bry9Knh+SnszJjkG3MdrzyhvPDXU/3u5Oq9waJesj1e4P46NE0UeOhwBAAAAAElFTkSuQmCC"
@@ -95,15 +89,15 @@
                                 <a href=""><img
                                         src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlLz48L2RlZnM+PHBhdGggZD0iTTIyNi45NjUgNjI5LjEyYzAgMzUuMjcyIDIxLjUwMyA4NC4yODUgMTIzLjgzNSA4NC4yODUgMTAyLjMyMyAwIDE4OS4xNzUtMTAzLjE2OCAxODkuMTc1LTEwMy4xNjhzLTExNy41Ni02NS43MTUtMjA0LjY1NS02MC4yMjNjLTg3LjExIDUuNTctMTA4LjM1NSA0My44NC0xMDguMzU1IDc5LjEwNXoiIGZpbGw9IiMxMjk2ZGIiLz48cGF0aCBkPSJNNTEyLjAxNS4wM0MyMjkuMjYyLjAzLjAyIDIyOS4yNTIuMDIgNTEyLjAwNmMwIDI4Mi43NCAyMjkuMjQyIDUxMS45NjMgNTExLjk5NSA1MTEuOTYzIDI4Mi43MjcgMCA1MTEuOTY0LTIyOS4yMjQgNTExLjk2NC01MTEuOTYzQzEwMjMuOTggMjI5LjI1MyA3OTQuNzQuMDMgNTEyLjAxNC4wM3pNODk4LjE2NyA3ODEuN0w2MDguMTk1IDY0NC4yMlM1NTMuMzUgNzA0LjkgNDk3LjQxOCA3MzEuNTc4Yy01NS45MzUgMjYuNjg3LTEyMC4xOSA0My4zMjctMTg5LjY5IDI2Ljg4LTY5LjU2NS0xNi4zOC0xMTguOTA3LTYwLjg1Ni0xMTAuMzk2LTE0Mi45NyA4LjUxMi04Mi4xMDUgOTYuMjU1LTExMC4zOTMgMTY4LjQ0My0xMTAuMzkzIDcyLjE4IDAgMjA5LjIwNSA0Ni43NyAyMDkuMjA1IDQ2Ljc3czExLjUxMi0yNS43OCAyMi43MTgtNTUuMjc4YzExLjItMjkuNSAxNC40MDItNTMuMTg1IDE0LjQwMi01My4xODVIMzIwLjQwNnYtMjkuMzE4aDE0MS43NHYtNTUuOTM1bC0xNzYuNjk1IDEuMjlWMzIyLjU3aDE3Ni41MTN2LTgzLjg5NGg5Mi43OXY4My44OTVINzQ0LjEydjM2Ljg2NmwtMTg5LjM2NyAxLjI3M3Y1Mi4wOWwxNTYuNDA3IDEuMjgycy0yLjgxIDI5LjI1Ni0yMi42NDggODIuNDQyYy0xOS44NDMgNTMuMTg1LTM4LjM5NiA4MC4zMTctMzguMzk2IDgwLjMxN2wzMDMuNDEgOTkuNTc1cy0xMC44OCAyOC40ODItMjQgNTMuNDM1Yy0xMy4xMTcgMjQuOTUyLTMxLjM2IDUxLjg1LTMxLjM2IDUxLjg1eiIgZmlsbD0iIzEyOTZkYiIvPjwvc3ZnPg=="
                                         alt=""></a>
-
                             </div>
-                            <div class="zcdl-ztnr-s-bottom"><a href="">忘记密码，免费注册</a></div>
+                            <div class="zcdl-ztnr-s-bottom"><a href="http://localhost:8080/register.html ">忘记密码，免费注册</a>
+                            </div>
 
                         </div>
 
 
                         <!-- 短信 -->
-                        <div class="zcdl-ztnr-duanxin">
+                        <div class="zcdl-ztnr-duanxin zcdl-ztnr-sss">
 
                             <div class="zcdl-ztnr-s-mm">
                                 <div>
@@ -149,7 +143,9 @@
 
 
                         <!-- 扫码 -->
-                        <div></div>
+                        <div class="zcdl-ztnr-sss let-ss-dwa">
+                            <div>扫码</div>
+                        </div>
 
                     </div>
 

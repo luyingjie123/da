@@ -20,6 +20,11 @@ $(".input").eq(1).focusout(function () {
     } else {
         $(".tizhi").eq(1).css("display", "block")
     }
+
+    // if ($(this).val() = "") {
+    //     console.log(1);
+    //     $(".tizhi").eq(1).html("不可为空")
+    // }
 })
 // 确认密码
 $(".input").eq(2).focusout(function () {
